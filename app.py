@@ -43,8 +43,8 @@ def inserting():
         ('Nikola', 'Jokic', 'Denver', 'Nuggets', 15),
         ('Kawhi', 'Leonard', 'Los Angeles', 'Clippers', 2);
     ''')
-    curr.commit()
-    curr.close()
+    conn.commit()
+    conn.close()
     return "Basketball Table Successfully populated"
 
 
